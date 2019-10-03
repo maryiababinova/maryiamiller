@@ -25,10 +25,10 @@ function SEO({ description, lang, meta, title }) {
     `
   )
 
-  const metaDescription = description || site.siteMetadata.description
+  // const metaDescription = description || site.siteMetadata.description
 
   return (
-    <div>Hello</div>
+    <div>
     <Helmet
       htmlAttributes={{
         lang,
@@ -70,6 +70,7 @@ function SEO({ description, lang, meta, title }) {
       //   },
       // ].concat(meta)}
     />
+    </div>
   )
 }
 
